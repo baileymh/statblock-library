@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.1
+## 0.1.2
 
 ### Bugfix
 - Fixed linebreak on attacks resulting in sbc error
