@@ -1,0 +1,305 @@
+{
+  "name": "statblock-library",
+  "title": "Pathfinder 1e Statblock Library",
+  "description": "Contains organized Statblocks for Pathfinder 1e from over 200 Books and 192 PFS Scenarios; including 23 Full APs, NPC Codexes, Tome of Horrors, Occult Bestiary, and various modules (Emerald Spire, Rappan Athuk, Sword of Air, The Lost City of Barakus)",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.10",
+  "systems": ["pf1"],
+  "author": "fadedshadow589#8270",
+  "url":"https://github.com/baileymh/statblock-library",
+  "manifest": "https://raw.githubusercontent.com/baileymh/statblock-library/main/module.json",
+  "download":"https://github.com/baileymh/statblock-library/releases/download/0.1.0/statblock-library.v0.1.0.zip",
+  "readme":"https://github.com/baileymh/statblock-library/blob/main/README.md",
+  "changelog":"https://github.com/baileymh/statblock-library/blob/main/changelog.md",
+  "packs": [
+    {
+      "name": "sb-animals-familiars",
+      "label": "Animals and Familiars (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-animals-familiars.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-campaign-settings",
+      "label": "PF Companions and Campaign Settings (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-campaign-settings.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-emerald-spire",
+      "label": "Emerald Spire Megadungeon (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-emerald-spire.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-monster-codex",
+      "label": "Monster Codex (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-monster-codex.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    }, 
+    {
+      "name": "sb-npcs-and-villians",
+      "label": "NPCs and Villians (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-npcs-and-villians.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-occult-bestiary",
+      "label": "Occult Bestiary (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-occult-bestiary.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-pfs",
+      "label": "PFS (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-pfs.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },  
+    {
+      "name": "sb-rappan-athuk",
+      "label": "Rappan Athuk (FGG) (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-rappan-athuk.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-sword-of-air",
+      "label": "Sword of Air (FGG) (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-sword-of-air.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },  
+    {
+      "name": "sb-tome-of-horrors",
+      "label": "Tome of Horrors (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-tome-of-horrors.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-lost-city-barakus",
+      "label": "The Lost City of Barakus (FGG) (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-lost-city-barakus.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },  
+    {
+      "name": "sb-we-be-goblins",
+      "label": "We Be Goblins (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-we-be-goblins.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },  
+    {
+      "name": "sb-rise-of-runelords",
+      "label": "Rise of the Runelords (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-rise-of-runelords.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-curse-crimson-throne",
+      "label": "AP Curse of the Crimson Throne (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-curse-crimson-throne.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-second-darkness",
+      "label": "AP Second Darkness (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-second-darkness.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-legacy-of-fire",
+      "label": "AP Legacy of Fire (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-legacy-of-fire.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-council-of-thieves",
+      "label": "AP Council of Thieves (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-council-of-thieves.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-kingmaker",
+      "label": "AP Kingmaker (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-kingmaker.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-serpents-skull",
+      "label": "AP Serpent's Skull (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-serpents-skull.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-carrion-crown",
+      "label": "AP Carrion Crown (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-carrion-crown.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-jade-regent",
+      "label": "AP Jade Regent (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-jade-regent.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-skull-shackles",
+      "label": "AP Skull & Shackles (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-skull-shackles.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-shattered-star",
+      "label": "AP Shattered Star (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-shattered-star.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-reign-of-winter",
+      "label": "AP Reign of Winter (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-reign-of-winter.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-wrath-righteous",
+      "label": "AP Wrath of the Righteous (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-wrath-righteous.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-mummys-mask",
+      "label": "AP Mummy's Mask (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-mummys-mask.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-iron-gods",
+      "label": "AP Iron Gods (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-iron-gods.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-giantslayer",
+      "label": "AP Giantslayer (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-giantslayer.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-hells-rebels",
+      "label": "AP Hell's Rebels (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-hells-rebels.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-hells-vengeance",
+      "label": "AP Hell's Vengeance (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-hells-vengeance.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-strange-aeons",
+      "label": "AP Strange Aeons (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-strange-aeons.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-ironfang-invasion",
+      "label": "AP Ironfang Invasion (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-ironfang-invasion.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-ruins-of-azlant",
+      "label": "AP Ruins of Azlant (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-ruins-of-azlant.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-war-for-the-crown",
+      "label": "AP War for the Crown (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-war-for-the-crown.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-return-of-runelords",
+      "label": "AP Return of the Runelords (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-return-of-runelords.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-tyrants-grasp",
+      "label": "AP Tyrant's Grasp (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-tyrants-grasp.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    }
+  ]
+}
