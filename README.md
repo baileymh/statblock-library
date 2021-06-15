@@ -10,7 +10,7 @@ Carrion Crown, Council of Thieves, Curse of the Crimson Throne, Emerald Spire, G
 ## NPCs and Villians (7 Books)
 Game Mastery Guide, Inner Sea NPC Codex, NPC Codex, NPC Guide, NPC Guide Web, Rival Guide, and Villain Codex
 
-## Pathfinder Companions and Campaign Settings (47 Books)
+## NOT YET ADDED - Pathfinder Companions and Campaign Settings (47 Books)
 Andoran Birthplace Of Freedom, Artifacts & Legends, Belkzen Hold Of The Orc Hordes, Castles Of The Inner Sea, Cheliax, The Infernal Empire, Chronicle Of The Righteous, d20pfsrd, Darklands Revisited, Demons Revisited, Distant Shores, Distant Worlds, Dragons Unleashed, Druma, Profit and Prophecy, Dungeons Of Golarion, Fey Revisited, Giants Revisited, Gnomes Of Golarion, Heart of the Jungle, Heaven Unleashed, Hell Unleashed, Inner Sea Gods, Inner Sea Temples, Inner Sea World Guide, Irrisen Land Of Eternal Winter, Isles Of The Shackles, Lands Of Conflict, Lands Of The Linnorm Kings, Legacy Of Dragons, Lost Cities Of Golarion, Lost Kingdoms, Lost Treasures, Magnimar City Of Monuments, Misfit Monsters, Mystery Monsters Revisited, Nidal, Land of Shadows, Numeria Land Of Fallen Stars, Osirion, Legacy Of Pharaohs, Phantom Phenomena, Planes Of Power, Qadira Jewel Of The East, Seekers of Secrets, Ships Of The Inner Sea, Taldor, The First Empire, The First World Realm Of The Fey, The Worldwound, Tombs Of Golarion, Towns Of The Inner Sea
 
 ## Modules (5 Books)
