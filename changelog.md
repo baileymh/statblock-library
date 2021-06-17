@@ -9,6 +9,8 @@
 - Add PF Bestiaries 1-6
 - Add various Monster sources (Book of the Damned, Inner Sea Bestiary, Inner Sea Monster Codex, Monster Codex, Inner Sea Gods, Undead Revisited, Undead Unleashed)
 
+### Bugfixes
+- Fixed various formatting and line spacing bugs
 
 ## 0.1.2
 
