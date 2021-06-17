@@ -1,6 +1,9 @@
 # Pathfinder 1e Statblock Library
 
 This module comprises a host of statblocks for Pathfinder 1st ed. for Foundry.
+Each statblock also contains an import button that allows you to directly load the statblock into sbc (thanks websterguy!). To use this feature, make sure you import the macro provided in Statblock Macros compendium.
+
+Spells, feats, and abilities have been pre-pruned of source markers (UC, APG, ARG, etc.) to help with sbc matching. Additionally, entries are labeled with CR or class and levels to aid in easy searching for particular classes, or CR. AP books have the AP book artwork as the entry icon, while non-aps are assigned based on type (humanoid, ooze, undead, etc.)
 
 ## Included Statblocks:
 
@@ -10,27 +13,27 @@ Carrion Crown, Council of Thieves, Curse of the Crimson Throne, Emerald Spire, G
 ## NPCs and Villians (7 Books)
 Game Mastery Guide, Inner Sea NPC Codex, NPC Codex, NPC Guide, NPC Guide Web, Rival Guide, and Villain Codex
 
-## NOT YET ADDED - Pathfinder Companions and Campaign Settings (47 Books)
-Andoran Birthplace Of Freedom, Artifacts & Legends, Belkzen Hold Of The Orc Hordes, Castles Of The Inner Sea, Cheliax, The Infernal Empire, Chronicle Of The Righteous, d20pfsrd, Darklands Revisited, Demons Revisited, Distant Shores, Distant Worlds, Dragons Unleashed, Druma, Profit and Prophecy, Dungeons Of Golarion, Fey Revisited, Giants Revisited, Gnomes Of Golarion, Heart of the Jungle, Heaven Unleashed, Hell Unleashed, Inner Sea Gods, Inner Sea Temples, Inner Sea World Guide, Irrisen Land Of Eternal Winter, Isles Of The Shackles, Lands Of Conflict, Lands Of The Linnorm Kings, Legacy Of Dragons, Lost Cities Of Golarion, Lost Kingdoms, Lost Treasures, Magnimar City Of Monuments, Misfit Monsters, Mystery Monsters Revisited, Nidal, Land of Shadows, Numeria Land Of Fallen Stars, Osirion, Legacy Of Pharaohs, Phantom Phenomena, Planes Of Power, Qadira Jewel Of The East, Seekers of Secrets, Ships Of The Inner Sea, Taldor, The First Empire, The First World Realm Of The Fey, The Worldwound, Tombs Of Golarion, Towns Of The Inner Sea
+## Pathfinder Companions and Campaign Settings (46 Books)
+Andoran Birthplace Of Freedom, Artifacts & Legends, Belkzen Hold Of The Orc Hordes, Castles Of The Inner Sea, Cheliax, The Infernal Empire, Chronicle Of The Righteous, Darklands Revisited, Demons Revisited, Distant Shores, Distant Worlds, Dragons Unleashed, Druma, Profit and Prophecy, Dungeons Of Golarion, Fey Revisited, Giants Revisited, Gnomes Of Golarion, Heart of the Jungle, Heaven Unleashed, Hell Unleashed, Inner Sea Gods, Inner Sea Temples, Inner Sea World Guide, Irrisen Land Of Eternal Winter, Isles Of The Shackles, Lands Of Conflict, Lands Of The Linnorm Kings, Legacy Of Dragons, Lost Cities Of Golarion, Lost Kingdoms, Lost Treasures, Magnimar City Of Monuments, Misfit Monsters, Mystery Monsters Revisited, Nidal, Land of Shadows, Numeria Land Of Fallen Stars, Osirion, Legacy Of Pharaohs, Phantom Phenomena, Planes Of Power, Qadira Jewel Of The East, Seekers of Secrets, Ships Of The Inner Sea, Taldor, The First Empire, The First World Realm Of The Fey, The Worldwound, Tombs Of Golarion, Towns Of The Inner Sea
 
 ## Modules (5 Books)
 Emerald Spire Megadungeon, The Lost City of Barakus (FGG), Sword of Air (FGG), Rappan Athuk (FGG), We Be Goblins
 
-## Bestiaries (3 Books)
-Familiar Folio, Tome of Horrors, Monster Codex, and Occult Bestiary
+## Bestiaries (18 Books)
+PF Bestiaries 1-6, Tome of Horrors, Occult Bestiary, various Monster books (Book of the Damned, d20pfsrd, Inner Sea Bestiary, Inner Sea Monster Codex, Monster Codex, Inner Sea Gods, Undead Revisited, Undead Unleashed), and Mythic Monsters!
 
 ## PFS (192 Scenarios)
 Pregen Characters
-S01 29-56, 
-S02 1-26 and Special, 
-S03 1-26 and Special, 
-S04 1-26 and Special, 
-S05 1-25 and Special, 
-S06 1-23, 
-S07 2, 
-S08 1-25, 
-S09 3, 
-S10 1
+S01 #29-56
+S02 #1-26 and Special
+S03 #1-26 and Special
+S04 #1-26 and Special
+S05 #1-25 and Special
+S06 #1-23
+S07 #2
+S08 #1-25
+S09 #3
+S10 #1
 
 ## Installation
 

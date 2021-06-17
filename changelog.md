@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.3
+
+### Changelog
+- Added Import button that allows for importing directly to sbc from the statblock (thanks websterguy)
+- Add Pathfinder Companion and Campaign Setting books.
+- Add Mythic Monsters (Though these may not work with sbc importing)
+- Add PF Bestiaries 1-6
+- Add various Monster sources (Book of the Damned, Inner Sea Bestiary, Inner Sea Monster Codex, Monster Codex, Inner Sea Gods, Undead Revisited, Undead Unleashed)
+
+
 ## 0.1.2
 
 ### Bugfix
