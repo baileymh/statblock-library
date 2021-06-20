@@ -4,8 +4,8 @@
 
 # Pathfinder 1e Statblock Library
 
-This module comprises a host of statblocks for Pathfinder 1st ed. for Foundry.
-Each statblock also contains an import button that allows you to directly load the statblock into sbc (thanks websterguy!). To use this feature, make sure you import the macro provided in Statblock Macros compendium.
+This module comprises around 10,000 of statblocks for Pathfinder 1st ed. for Foundry.
+Each statblock also contains an import button that allows you to directly load the statblock into sbc (thanks websterguy!).
 
 Spells, feats, and abilities have been pre-pruned of source markers (UC, APG, ARG, etc.) to help with sbc matching. Additionally, entries are labeled with CR or class and levels to aid in easy searching for particular classes, or CR. AP books have the AP book artwork as the entry icon, while non-aps are assigned based on type (humanoid, ooze, undead, etc.)
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.4
+
+### Changelog
+- Changed need for macro to be a script ran through welcome screen (thanks websterguy)
+
+### Bugfixes
+- Fixed various formatting and line spacing bugs
+- Removed duplicate import buttons
+- Added missing import buttons
+
 ## 0.1.3
 
 ### Changelog
