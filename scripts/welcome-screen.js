@@ -1,7 +1,7 @@
 (() => {
   const module = "Pathfinder 1e Statblock Library";
   const author = "fadedshadow589";
-  const message = "<p>This module includes a feature that allows you to click a button on the provided statblocks and automatically load the text into sbc!</p><>However, this requires you to import the macro contained in the Statblock Macros compendium. Once the macro has been imported, everything should be good to go!</p>";
+  const message = "<>This module includes a feature that allows you to click a button on the provided statblocks and automatically load the text into sbc!</p>";
   const messageEnable = "";
   const disclaimer = "";
   const ending = "Sincerely,";
@@ -103,3 +103,27 @@
     }
   });
 })();
+
+Hooks.on('renderJournalSheet', () => {
+  $('#importStatblock').on('click', function (event) {
+    importStatblock(event);
+  });
+})
+
+let importStatblock = async function(event) {
+  const wait = async (ms) => new Promise((resolve)=> setTimeout(resolve, ms));
+
+  let inputText = event.target.innerText;
+  let sectionId = inputText.replace(/Import (.*) with SBC/gm, `$1`);
+  
+  sectionId = sectionId.replace(/[^a-zA-Z0-9_]/gm, '');
+  
+  window.$('#startSBCButton')[0].click();
+  
+  let formInput = window.$(`#${sectionId}`)[0].innerText;
+  
+  await wait(250);
+  
+  window.$('#sbcInput')[0].value = formInput;
+  window.$('#sbcInput').keyup();
+}
