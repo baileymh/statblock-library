@@ -41,7 +41,9 @@ S10 #1
 
 ## Installation
 
-Use: https://raw.githubusercontent.com/baileymh/statblock-library/main/module.json in your foundry module browser
+Install through the foundry add-on browser. 
+
+Manually: https://raw.githubusercontent.com/baileymh/statblock-library/main/module.json
 
 ----------------
 ## Credit

@@ -1,7 +1,7 @@
 {
   "name": "statblock-library",
   "title": "Pathfinder 1e Statblock Library",
-  "description": "Contains organized Statblocks for Pathfinder 1e from over 200 Books and 192 PFS Scenarios; including 23 Full Adventure Pathss, NPC Codexes, Tome of Horrors, Occult Bestiary, and various modules (Emerald Spire, Rappan Athuk, Sword of Air, The Lost City of Barakus (FGG))",
+  "description": "Contains organized Statblocks for Pathfinder 1e from over 200 Books and 192 PFS Scenarios; including 23 Full Adventure Pathss, NPC Codexes, Tome of Horrors, Occult Bestiary, and various modules (Emerald Spire, Rappan Athuk, Sword of Air, The Lost City of Barakus (FGG)) that can be easily imported using SBC",
   "version": "0.1.4",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.10",
