@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.5
+
+### Bugfix
+- Fix bug where button only worked when compendium was unlocked.
+
+### Changelog
+- Added warning for users without sbc installed or active
+
 ## 0.1.4
 
 ### Changelog
