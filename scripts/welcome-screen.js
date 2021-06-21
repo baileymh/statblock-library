@@ -77,53 +77,36 @@
     window.workshopWS.app.render(true);
   };
 
-  Hooks.on("init", () => {
-    if (window.workshopWS === undefined) {
-      window.workshopWS = {
-        modules: [module],
-        authors: {
-          [author]: true
-        },
-        app: undefined
-      };
-    } else {
-      window.workshopWS.modules.push(module);
-      window.workshopWS.authors[author] = true;
+// Add sbc import button on journals
+  Hooks.on('renderJournalSheet', () => {
+    $('#importStatblock').prop('disabled', false);
+  
+    $('#importStatblock').click(function (event) {
+      event.stopPropagation();
+      event.preventDefault();
+      importStatblock(event);
+    });
+  })
+  
+  let importStatblock = async function(event) {
+    if (game.modules.get('pf1-statblock-converter').active) {
+      const wait = async (ms) => new Promise((resolve)=> setTimeout(resolve, ms));
+  
+      let inputText = event.target.innerText;
+      let sectionId = inputText.replace(/Import (.*) with SBC/gm, `$1`);
+      
+      sectionId = sectionId.replace(/[^a-zA-Z0-9_]/gm, '');
+      
+      window.$('#startSBCButton')[0].click();
+      
+      let formInput = window.$(`#${sectionId}`)[0].innerText;
+      
+      await wait(250);
+      
+      window.$('#sbcInput')[0].value = formInput;
+      window.$('#sbcInput').keyup();
     }
-  });
-
-  Hooks.on("ready", () => {
-    if (!game.user.isGM) return;
-
-    const ws = game.modules.get(wsID);
-    if (ws === undefined) {
-      installPrompt();
-    } else if (!ws.active) {
-      enablePrompt();
+    else {
+      ui.notifications.warn('Please install and enable "sbc | PF1 Statblock Converter" to import this statblock');
     }
-  });
-})();
-
-Hooks.on('renderJournalSheet', () => {
-  $('#importStatblock').on('click', function (event) {
-    importStatblock(event);
-  });
-})
-
-let importStatblock = async function(event) {
-  const wait = async (ms) => new Promise((resolve)=> setTimeout(resolve, ms));
-
-  let inputText = event.target.innerText;
-  let sectionId = inputText.replace(/Import (.*) with SBC/gm, `$1`);
-  
-  sectionId = sectionId.replace(/[^a-zA-Z0-9_]/gm, '');
-  
-  window.$('#startSBCButton')[0].click();
-  
-  let formInput = window.$(`#${sectionId}`)[0].innerText;
-  
-  await wait(250);
-  
-  window.$('#sbcInput')[0].value = formInput;
-  window.$('#sbcInput').keyup();
-}
+  }
