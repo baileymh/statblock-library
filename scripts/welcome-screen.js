@@ -76,6 +76,7 @@
     });
     window.workshopWS.app.render(true);
   };
+})
 
 // Add sbc import button on journals
   Hooks.on('renderJournalSheet', () => {
