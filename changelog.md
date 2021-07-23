@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0
+## 0.1.6
 ### Changelog
 - Update to 0.8.8
 
