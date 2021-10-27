@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.7
+### Changelog
+- Migrate to latest foundry 0.8.9
+
+### Bugfixes
+- Fixed a couple statblocks that were broken
+
 ## 0.1.6
 ### Changelog
 - Update to 0.8.8
