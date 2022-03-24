@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+### Changelog
+* Bug fix for breaking import button
+* Remove astrisks from statblocks
+
 ## 0.2.1
 ### Changelog
 * Migrate module for pf 80.9 and foundry 9.249
