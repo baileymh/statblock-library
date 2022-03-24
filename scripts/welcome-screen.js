@@ -79,14 +79,14 @@
 })
 
 // Add sbc import button on journals
-  Hooks.on('renderJournalSheet', () => {
-    $('#importStatblock').prop('disabled', false);
-  
-    $('#importStatblock').click(function (event) {
-      event.stopPropagation();
-      event.preventDefault();
-      importStatblock(event);
-    });
+  Hooks.on('renderJournalSheet', (_, jq) => {
+    jq.find('button.importStatblock')
+      .prop('disabled', false)
+      .click(function (event) {
+        event.stopPropagation();
+        event.preventDefault();
+        importStatblock(event);
+      });
   })
   
   let importStatblock = async function(event) {
