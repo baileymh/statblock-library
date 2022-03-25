@@ -2,6 +2,11 @@
 
 ## 0.2.2
 ### Changelog
+* Changes weren't actually included somehow, Properly fixed import button this time
+
+
+## 0.2.2
+### Changelog
 * Bug fix for breaking import button
 * Remove astrisks from statblocks
 
