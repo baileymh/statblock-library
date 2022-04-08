@@ -279,6 +279,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-tomb-of-the-iron-medusa",
+      "label": "Tomb of the Iron Medusa (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-tomb-of-the-iron-medusa.db",
+      "entity": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-tyrants-grasp",
       "label": "AP - Tyrant's Grasp (Statblocks)",
       "system": "pf1",
