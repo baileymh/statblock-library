@@ -85,7 +85,7 @@
       "path": "packs/sb-pfs.db",
       "type": "JournalEntry",
       "module": "statblock-library"
-    },  
+    },
     {
       "name": "sb-rappan-athuk",
       "label": "Rappan Athuk (FGG) (Statblocks)",
@@ -101,7 +101,7 @@
       "path": "packs/sb-sword-of-air.db",
       "type": "JournalEntry",
       "module": "statblock-library"
-    },  
+    },
     {
       "name": "sb-tome-of-horrors",
       "label": "Tome of Horrors (Statblocks)",
@@ -117,7 +117,7 @@
       "path": "packs/sb-lost-city-barakus.db",
       "type": "JournalEntry",
       "module": "statblock-library"
-    },  
+    },
     {
       "name": "sb-we-be-goblins",
       "label": "We Be Goblins (Statblocks)",
