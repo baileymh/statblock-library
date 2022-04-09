@@ -39,6 +39,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-academy-of-secrets",
+      "label": "Academy of Secrets (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-academy-of-secrets.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-emerald-spire",
       "label": "Emerald Spire Megadungeon (Statblocks)",
       "system": "pf1",
