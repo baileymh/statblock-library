@@ -5,7 +5,7 @@
   "version": "0.2.3",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
-  "systems": ["pf1"],
+  "system": ["pf1"],
   "author": "fadedshadow589#8270",
   "url":"https://github.com/baileymh/statblock-library",
   "manifest": "https://github.com/baileymh/statblock-library/releases/download/0.2.3/module.json",
