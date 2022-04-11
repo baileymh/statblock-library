@@ -223,6 +223,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-puzzle-box",
+      "label": "The Puzzle Box (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-puzzle-box.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-rise-of-runelords",
       "label": "AP - Rise of the Runelords (Statblocks)",
       "system": "pf1",
