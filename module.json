@@ -47,6 +47,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-crucible-of-chaos",
+      "label": "Crucible of Chaos (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-crucible-of-chaos.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-emerald-spire",
       "label": "Emerald Spire Megadungeon (Statblocks)",
       "system": "pf1",
