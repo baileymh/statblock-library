@@ -47,6 +47,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-clash-of-the-kingslayers",
+      "label": "Clash of the Kingslayers (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-clash-of-the-kingslayers.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-crucible-of-chaos",
       "label": "Crucible of Chaos (Statblocks)",
       "system": "pf1",
