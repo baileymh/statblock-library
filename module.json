@@ -111,6 +111,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-plunder-and-peril",
+      "label": "Plunder & Peril (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-plunder-and-peril.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-rappan-athuk",
       "label": "Rappan Athuk (FGG) (Statblocks)",
       "system": "pf1",
