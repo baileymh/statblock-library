@@ -111,6 +111,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-house-on-hook-street",
+      "label": "The House on Hook Street (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-house-on-hook-street.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-plunder-and-peril",
       "label": "Plunder & Peril (Statblocks)",
       "system": "pf1",
