@@ -18,8 +18,8 @@ Game Mastery Guide, Inner Sea NPC Codex, NPC Codex, NPC Guide, NPC Guide Web, Ri
 ## Pathfinder Companions and Campaign Settings (46 Books)
 Andoran Birthplace Of Freedom, Artifacts & Legends, Belkzen Hold Of The Orc Hordes, Castles Of The Inner Sea, Cheliax, The Infernal Empire, Chronicle Of The Righteous, Darklands Revisited, Demons Revisited, Distant Shores, Distant Worlds, Dragons Unleashed, Druma, Profit and Prophecy, Dungeons Of Golarion, Fey Revisited, Giants Revisited, Gnomes Of Golarion, Heart of the Jungle, Heaven Unleashed, Hell Unleashed, Inner Sea Gods, Inner Sea Temples, Inner Sea World Guide, Irrisen Land Of Eternal Winter, Isles Of The Shackles, Lands Of Conflict, Lands Of The Linnorm Kings, Legacy Of Dragons, Lost Cities Of Golarion, Lost Kingdoms, Lost Treasures, Magnimar City Of Monuments, Misfit Monsters, Mystery Monsters Revisited, Nidal, Land of Shadows, Numeria Land Of Fallen Stars, Osirion, Legacy Of Pharaohs, Phantom Phenomena, Planes Of Power, Qadira Jewel Of The East, Seekers of Secrets, Ships Of The Inner Sea, Taldor, The First Empire, The First World Realm Of The Fey, The Worldwound, Tombs Of Golarion, Towns Of The Inner Sea
 
-## Modules (12 Books)
-Academy of Secrets, Clash of the Kingslayers (\*), Crucible of Chaos (\*), Emerald Spire Megadungeon, House on Hook Street, Plunder & Peril, Rappan Athuk (FGG), Sword of Air (FGG), The Lost City of Barakus (FGG), The Puzzle Box, Tomb of the Iron Medusa, We Be Goblins
+## Modules (13 Books)
+Academy of Secrets, Clash of the Kingslayers (\*), Crucible of Chaos (\*), Emerald Spire Megadungeon, House on Hook Street, Plunder & Peril, Rappan Athuk (FGG), Sword of Air (FGG), The Dragon's Demand, The Lost City of Barakus (FGG), The Puzzle Box, Tomb of the Iron Medusa, We Be Goblins
 
 (\*) Converted from 3.5e
 

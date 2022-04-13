@@ -63,6 +63,14 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-dragons-demand",
+      "label": "The Dragon's Demand (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-dragons-demand.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-emerald-spire",
       "label": "Emerald Spire Megadungeon (Statblocks)",
       "system": "pf1",
