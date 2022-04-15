@@ -39,6 +39,38 @@
       "module": "statblock-library"
     },
     {
+      "name": "sb-academy-of-secrets",
+      "label": "Academy of Secrets (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-academy-of-secrets.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-clash-of-the-kingslayers",
+      "label": "Clash of the Kingslayers (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-clash-of-the-kingslayers.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-crucible-of-chaos",
+      "label": "Crucible of Chaos (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-crucible-of-chaos.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-dragons-demand",
+      "label": "The Dragon's Demand (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-dragons-demand.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
       "name": "sb-emerald-spire",
       "label": "Emerald Spire Megadungeon (Statblocks)",
       "system": "pf1",
@@ -83,6 +115,22 @@
       "label": "PFS (Statblocks)",
       "system": "pf1",
       "path": "packs/sb-pfs.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-house-on-hook-street",
+      "label": "The House on Hook Street (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-house-on-hook-street.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-plunder-and-peril",
+      "label": "Plunder & Peril (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-plunder-and-peril.db",
       "type": "JournalEntry",
       "module": "statblock-library"
     },
@@ -211,6 +259,14 @@
       "label": "AP - Mummy's Mask (Statblocks)",
       "system": "pf1",
       "path": "packs/sb-mummys-mask.db",
+      "type": "JournalEntry",
+      "module": "statblock-library"
+    },
+    {
+      "name": "sb-puzzle-box",
+      "label": "The Puzzle Box (Statblocks)",
+      "system": "pf1",
+      "path": "packs/sb-puzzle-box.db",
       "type": "JournalEntry",
       "module": "statblock-library"
     },
