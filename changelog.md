@@ -1,9 +1,12 @@
 # Changelog
 
+## 0.2.3
+### Changelog
+* Migrate module for pf 80.23 and foundry 9.269
+
 ## 0.2.2
 ### Changelog
 * Changes weren't actually included somehow, Properly fixed import button this time
-
 
 ## 0.2.2
 ### Changelog
