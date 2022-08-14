@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.7
+### Changelog
+* Migrate module for pf1 81.3 and foundry 9.269
+
+## 0.2.6
+### Changelog
+* Fix bug for Forge install
+
 ## 0.2.5
 ### Changelog
 * Fix Import bug
