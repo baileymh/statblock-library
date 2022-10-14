@@ -79,8 +79,11 @@
 })
 
 // Add sbc import button on journals
-  Hooks.on('renderJournalSheet', (_, jq) => {
-    jq.find('button.importStatblock')
+  Hooks.on('renderJournalPageSheet', (_, jq) => {
+    
+    let foundButton = jq.find(".importStatblock");
+
+    jq.find('.importStatblock')
       .prop('disabled', false)
       .click(function (event) {
         event.stopPropagation();
