@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.8
+### Changelog
+* Migrate module for pf1 82.2 and foundry 10.287
+* Fix broken import function (thanks @Lavaeolous)
+
 ## 0.2.7
 ### Changelog
 * Migrate module for pf1 81.3 and foundry 9.269
