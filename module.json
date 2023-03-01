@@ -1,31 +1,34 @@
 {
-  "name": "statblock-library",
   "title": "Pathfinder 1e Statblock Library",
   "description": "Contains organized Statblocks for Pathfinder 1e from over 200 Books and 192 PFS Scenarios; including 23 Full Adventure Pathss, NPC Codexes, Tome of Horrors, Occult Bestiary, and various modules (Emerald Spire, Rappan Athuk, Sword of Air, The Lost City of Barakus (FGG)) that can be easily imported using SBC",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.286",
+    "verified": "10.291",
     "maximum": "10"
   },
   "relationships": {
-    "systems": [{
-      "id": "pf1",
-      "type": "system",
-      "manifest": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1/-/releases/permalink/latest/downloads/system.json",
-      "compatibility": {
-        "minimum": "0.82.2",
-        "verified": "0.82.2"
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "manifest": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1/-/releases/permalink/latest/downloads/system.json",
+        "compatibility": {
+          "minimum": "0.82.5",
+          "verified": "0.82.5"
+        }
       }
-    }]
+    ]
   },
-  "author": "fadedshadow589#8270",
-  "url":"https://github.com/baileymh/statblock-library",
-  "manifest": "https://github.com/baileymh/statblock-library/releases/download/0.2.8/module.json",
-  "download":"https://github.com/baileymh/statblock-library/releases/download/0.2.8/statblock-library.v0.2.8.zip",
-  "readme":"https://github.com/baileymh/statblock-library/blob/main/README.md",
-  "changelog":"https://github.com/baileymh/statblock-library/blob/main/changelog.md",
-  "scripts": ["./scripts/welcome-screen.js"],
+  "id": "statblock-library",
+  "url": "https://github.com/baileymh/statblock-library",
+  "manifest": "https://github.com/baileymh/statblock-library/releases/download/0.2.9/module.json",
+  "download": "https://github.com/baileymh/statblock-library/releases/download/0.2.9/statblock-library.v0.2.9.zip",
+  "readme": "https://github.com/baileymh/statblock-library/blob/main/README.md",
+  "changelog": "https://github.com/baileymh/statblock-library/blob/main/changelog.md",
+  "scripts": [
+    "scripts/welcome-screen.js"
+  ],
   "packs": [
     {
       "name": "sb-bestiaries1-3",
@@ -33,7 +36,8 @@
       "system": "pf1",
       "path": "packs/sb-bestiaries1-3.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-bestiaries4-6",
@@ -41,7 +45,8 @@
       "system": "pf1",
       "path": "packs/sb-bestiaries4-6.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-campaign-settings",
@@ -49,7 +54,8 @@
       "system": "pf1",
       "path": "packs/sb-campaign-settings.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-academy-of-secrets",
@@ -57,7 +63,8 @@
       "system": "pf1",
       "path": "packs/sb-academy-of-secrets.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-clash-of-the-kingslayers",
@@ -65,7 +72,8 @@
       "system": "pf1",
       "path": "packs/sb-clash-of-the-kingslayers.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-crucible-of-chaos",
@@ -73,7 +81,8 @@
       "system": "pf1",
       "path": "packs/sb-crucible-of-chaos.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-dragons-demand",
@@ -81,7 +90,8 @@
       "system": "pf1",
       "path": "packs/sb-dragons-demand.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-emerald-spire",
@@ -89,7 +99,8 @@
       "system": "pf1",
       "path": "packs/sb-emerald-spire.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-monsters-dragons",
@@ -97,7 +108,8 @@
       "system": "pf1",
       "path": "packs/sb-monsters-dragons.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-mythic-monsters",
@@ -105,7 +117,8 @@
       "system": "pf1",
       "path": "packs/sb-mythic-monsters.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-npcs-and-villians",
@@ -113,7 +126,8 @@
       "system": "pf1",
       "path": "packs/sb-npcs-and-villians.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-occult-bestiary",
@@ -121,7 +135,8 @@
       "system": "pf1",
       "path": "packs/sb-occult-bestiary.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-pfs",
@@ -129,7 +144,8 @@
       "system": "pf1",
       "path": "packs/sb-pfs.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-house-on-hook-street",
@@ -137,7 +153,8 @@
       "system": "pf1",
       "path": "packs/sb-house-on-hook-street.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-plunder-and-peril",
@@ -145,7 +162,8 @@
       "system": "pf1",
       "path": "packs/sb-plunder-and-peril.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-rappan-athuk",
@@ -153,7 +171,8 @@
       "system": "pf1",
       "path": "packs/sb-rappan-athuk.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-sword-of-air",
@@ -161,7 +180,8 @@
       "system": "pf1",
       "path": "packs/sb-sword-of-air.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-tome-of-horrors",
@@ -169,7 +189,8 @@
       "system": "pf1",
       "path": "packs/sb-tome-of-horrors.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-lost-city-barakus",
@@ -177,7 +198,8 @@
       "system": "pf1",
       "path": "packs/sb-lost-city-barakus.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-we-be-goblins",
@@ -185,7 +207,8 @@
       "system": "pf1",
       "path": "packs/sb-we-be-goblins.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-carrion-crown",
@@ -193,7 +216,8 @@
       "system": "pf1",
       "path": "packs/sb-carrion-crown.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-council-of-thieves",
@@ -201,7 +225,8 @@
       "system": "pf1",
       "path": "packs/sb-council-of-thieves.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-curse-crimson-throne",
@@ -209,7 +234,8 @@
       "system": "pf1",
       "path": "packs/sb-curse-crimson-throne.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-giantslayer",
@@ -217,7 +243,8 @@
       "system": "pf1",
       "path": "packs/sb-giantslayer.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-hells-rebels",
@@ -225,7 +252,8 @@
       "system": "pf1",
       "path": "packs/sb-hells-rebels.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-hells-vengeance",
@@ -233,7 +261,8 @@
       "system": "pf1",
       "path": "packs/sb-hells-vengeance.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-iron-gods",
@@ -241,7 +270,8 @@
       "system": "pf1",
       "path": "packs/sb-iron-gods.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-ironfang-invasion",
@@ -249,7 +279,8 @@
       "system": "pf1",
       "path": "packs/sb-ironfang-invasion.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-jade-regent",
@@ -257,7 +288,8 @@
       "system": "pf1",
       "path": "packs/sb-jade-regent.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-kingmaker",
@@ -265,7 +297,8 @@
       "system": "pf1",
       "path": "packs/sb-kingmaker.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-mummys-mask",
@@ -273,7 +306,8 @@
       "system": "pf1",
       "path": "packs/sb-mummys-mask.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-puzzle-box",
@@ -281,7 +315,8 @@
       "system": "pf1",
       "path": "packs/sb-puzzle-box.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-rise-of-runelords",
@@ -289,7 +324,8 @@
       "system": "pf1",
       "path": "packs/sb-rise-of-runelords.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-serpents-skull",
@@ -297,7 +333,8 @@
       "system": "pf1",
       "path": "packs/sb-serpents-skull.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-skull-shackles",
@@ -305,7 +342,8 @@
       "system": "pf1",
       "path": "packs/sb-skull-shackles.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-shattered-star",
@@ -313,7 +351,8 @@
       "system": "pf1",
       "path": "packs/sb-shattered-star.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-reign-of-winter",
@@ -321,7 +360,8 @@
       "system": "pf1",
       "path": "packs/sb-reign-of-winter.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-return-of-runelords",
@@ -329,7 +369,8 @@
       "system": "pf1",
       "path": "packs/sb-return-of-runelords.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-ruins-of-azlant",
@@ -337,7 +378,8 @@
       "system": "pf1",
       "path": "packs/sb-ruins-of-azlant.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-strange-aeons",
@@ -345,7 +387,8 @@
       "system": "pf1",
       "path": "packs/sb-strange-aeons.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-tomb-of-the-iron-medusa",
@@ -353,7 +396,8 @@
       "system": "pf1",
       "path": "packs/sb-tomb-of-the-iron-medusa.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-tyrants-grasp",
@@ -361,7 +405,8 @@
       "system": "pf1",
       "path": "packs/sb-tyrants-grasp.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-war-for-the-crown",
@@ -369,7 +414,8 @@
       "system": "pf1",
       "path": "packs/sb-war-for-the-crown.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "sb-wrath-righteous",
@@ -377,7 +423,14 @@
       "system": "pf1",
       "path": "packs/sb-wrath-righteous.db",
       "type": "JournalEntry",
-      "module": "statblock-library"
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "fadedshadow589#8270",
+      "flags": {}
     }
   ]
 }
